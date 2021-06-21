@@ -1,0 +1,5 @@
+<td>
+    @if($$MODEL_NAME_CAMEL$->$FIELD_NAME$)
+        <img src="{!! $$MODEL_NAME_CAMEL$->$FIELD_NAME$ !!}" class="thumbnail img-responsive">
+    @endif
+</td>
